@@ -1,45 +1,23 @@
-# I-am-production-system
-Production-ready Identity &amp; Access Management system with JWT authentication, refresh tokens, RBAC, Redis sessions, email verification, and secure backend architecture built with Node.js, Express, and MongoDB.
+# IAM Production System (Enterprise-Grade)
 
+A fully structured, production-ready Identity & Access Management (IAM) system designed with real-world enterprise security, scalability, and maintainability principles.
 
-
-#  IAM Production System
-
-A production-ready Identity & Access Management (IAM) backend system built with Node.js, Express, MongoDB, and Redis.
-
-This project implements real-world authentication and authorization patterns used in modern enterprise applications.
+Built using Node.js, Express, MongoDB, and Redis with a clean layered architecture.
 
 ---
 
-##  Features
+## 🚀 System Overview
 
-### Authentication
-- User registration and login
-- JWT access token authentication
-- Refresh token rotation system
-- Secure password hashing (bcrypt)
+This system provides a secure authentication and authorization framework including:
 
-### Authorization
+- JWT Authentication (Access + Refresh tokens)
 - Role-Based Access Control (RBAC)
-- Protected routes with middleware
-- Admin/user separation
-
-### Security
-- Rate limiting (brute force protection)
-- Helmet security headers
-- Input validation (Joi)
-- Secure session handling with Redis
-
-### Email System
-- Email verification support
-- Password reset system (token-based)
-
-### Infrastructure
-- Redis session storage
-- MongoDB database integration
-- Docker container support
-- Clean layered architecture (Controllers, Services, Middleware)
+- Secure session management using Redis
+- Email verification system
+- Password reset flow
+- Audit logging for all critical actions
+- Rate limiting and security hardening
 
 ---
 
-##  Architecture
+## 🏗️ Architecture (Enterprise Standard)
